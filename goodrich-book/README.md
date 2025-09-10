@@ -119,18 +119,86 @@ The goal is to provide well-documented, practical implementations that follow th
 
 ---
 
-## 🎯 Objectives
-- Reinforce **theoretical knowledge** with practical examples.  
-- Provide **clean, well-documented code** for study and teaching.  
-- Support **interview prep and algorithm challenges** with reference implementations.  
+# 🎯 Run examples:
+# 🚀 Running Python Examples from Terminal (Linux & Windows)
+
+This guide explains how to run the code examples from **Data Structures and Algorithms in Python** directly from the terminal.
 
 ---
 
-## 📚 Reference
-**Book:** *Data Structures and Algorithms in Python*  
-Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser.  
+## ▶️ Linux (Ubuntu, Debian, Fedora, etc.)
+
+1. Verify Python 3 is installed:
+   ```bash
+   python3 --version
+   ```
+
+2. Move to the chapter folder:
+   ```bash
+   cd ch04-Recursion
+   ```
+
+3. Run a script:
+   ```bash
+   python3 factorial.py
+   ```
+
+4. Run with parameters:
+   ```bash
+   python3 factorial.py 10
+   ```
 
 ---
 
-## 📄 License
-This project is licensed under the **MIT License**.  
+## ▶️ Windows (PowerShell or CMD)
+
+1. Verify Python is installed and added to PATH:
+   ```powershell
+   python --version
+   ```
+
+2. Change to the chapter folder:
+   ```powershell
+   cd ch04-Recursion
+   ```
+
+3. Run a script:
+   ```powershell
+   python factorial.py
+   ```
+
+   If you use the launcher:
+   ```powershell
+   py factorial.py
+   ```
+
+4. Run with parameters:
+   ```powershell
+   python factorial.py 10
+   ```
+
+---
+
+## 📌 Notes
+
+- Parameters are passed **after the filename** (e.g., `python script.py arg1 arg2`).  
+- Inside Python, they can be accessed with:
+  ```python
+  import sys
+  arg1 = sys.argv[1]
+  ```
+
+- To run multiple files in Linux:
+  ```bash
+  for f in *.py; do python3 "$f"; done
+  ```
+
+- To run multiple files in Windows PowerShell:
+  ```powershell
+  foreach ($f in Get-ChildItem *.py) { python $f }
+  ```
+
+---
+
+✅ With this, you can easily run and test all examples from the repository.
+
