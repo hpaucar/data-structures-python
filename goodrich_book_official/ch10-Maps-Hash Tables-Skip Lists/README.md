@@ -1,9 +1,16 @@
-# ch10 Maps Hash Tables Skip Lists
-
-Examples in order of appearance:
+# Capítulo 10 — Maps, Hash Tables, and Skip Lists
 
 1. `word_freq.py` → Word frequency count (10.1.2)  
-2. `mapBase.py` → Base class for maps (10.1.4)  
-3. `sortedTableMap.py` → Sorted map (10.3.1)  
-4. `costPerformance.py` → Application of sorted maps (10.3.2)  
-5. `multiMap.py` → Multimaps (10.5.3)  
+2. `word_frequency.py` → Word frequency count (10.1.2)  
+3. `mapBase.py` → Base class for maps (10.1.4)  
+4. `map_base.py` → Base class for maps (10.1.4)  
+5. `unsorted_table_map.py` → Simple unsorted map (10.1.5)  
+6. `sortedTableMap.py` → Sorted map (10.3.1)  
+7. `sorted_table_map.py` → Sorted map (10.3.1)  
+8. `costPerformance.py` → Application of sorted maps (10.3.2)  
+9. `cost_performance.py` → Application of sorted maps (10.3.2)  
+10. `hash_map_base.py` → Hash table base (10.2.4)  
+11. `chain_hash_map.py` → Hash table with separate chaining (10.2.2)  
+12. `probe_hash_map.py` → Hash table with linear probing (10.2.2)  
+13. `multiMap.py` → Multimaps (10.5.3)  
+14. `multi_map.py` → Multimaps (10.5.3)  

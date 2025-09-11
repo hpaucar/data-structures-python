@@ -1,12 +1,18 @@
-# ch14 Graph Algorithms
+# Capítulo 14 — Graph Algorithms
 
-Examples in order of appearance:
-
-1. `graph.py` → Graph structures (14.2.5)  
-2. `DFS.py` → Depth-First Search (14.3.1)  
-3. `BFS.py` → Breadth-First Search (14.3.3)  
-4. `topologicalSort.py` → Topological sort (14.5.1)  
-5. `Dijkstra.py` → Dijkstra’s algorithm (14.6.2)  
-6. `floydWarshall.py` → Floyd–Warshall (14.6, extension)  
-7. `MST_PrimJarnik.py` → Prim-Jarník MST (14.7.1)  
-8. `MST_Kruskal.py` → Kruskal MST (14.7.2)  
+1. `graph.py` → Graph base class (14.1.1)  
+2. `graph_examples.py` → Graph examples (14.1)  
+3. `dfs.py` → Depth-first search (14.3.1)  
+4. `DFS.py` → DFS variant (14.3.1)  
+5. `bfs.py` → Breadth-first search (14.3.3)  
+6. `BFS.py` → BFS variant (14.3.3)  
+7. `topological_sort.py` → Topological sort (14.5.1)  
+8. `topologicalSort.py` → Topological sort variant (14.5.1)  
+9. `shortest_paths.py` → Shortest paths (14.6)  
+10. `Dijkstra.py` → Dijkstra’s algorithm (14.6.2)  
+11. `floydWarshall.py` → Floyd-Warshall algorithm (14.6)  
+12. `MST_PrimJarnik.py` → Prim-Jarník algorithm (14.7.1)  
+13. `MST_Kruskal.py` → Kruskal’s algorithm (14.7.2)  
+14. `mst.py` → MST helper (14.7)  
+15. `partition.py` → Union-Find structure (14.7.3)  
+16. `transitive_closure.py` → Transitive closure (14.4)  

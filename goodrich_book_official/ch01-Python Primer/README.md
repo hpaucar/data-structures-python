@@ -1,0 +1,18 @@
+# Capítulo 1 — Python Primer
+
+1. `gpa1.py` → GPA calculator (1.1.2)  
+2. `gpa2.py` → GPA calculator with improvements (1.1.2)  
+3. `heartrate.py` → Heart rate calculation example (1.2)  
+4. `age1.py` → Simple input example (1.6.1)  
+5. `age2.py` → Input with exception handling (1.7)  
+6. `sum1.py` → Summation with for loop (1.4.2)  
+7. `sum2.py` → Summation with while loop (1.4.2)  
+8. `factors1.py` → Factors of a number, basic version (1.4.2)  
+9. `factors2.py` → Factors using improved loop (1.4.2)  
+10. `factors3.py` → Optimized factorization (1.4.2)  
+11. `fibonacci1.py` → Iterative Fibonacci (1.4.2)  
+12. `fibonacci2.py` → Generator-based Fibonacci (1.8)  
+13. `count.py` → Counting occurrences (1.9.2)  
+14. `contains.py` → Membership test (1.9.2)  
+15. `range.py` → Custom range class (1.11)  
+16. `scale.py` → Scaling values in list (1.5)  

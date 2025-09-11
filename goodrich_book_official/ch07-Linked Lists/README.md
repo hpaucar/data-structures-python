@@ -1,8 +1,15 @@
-# ch07 Linked Lists
+# Capítulo 7 — Linked Lists
 
-Examples in order of appearance:
-
-1. `linkedStackQueue.py` → Stack/Queue with singly linked lists (7.1.1–7.1.2)  
-2. `doubleLinkNode.py` → Doubly linked list (7.3.1)  
-3. `insertion_sort_PositionalList.py` → Sorting positional lists (7.5)  
-4. `favoritesList.py` → Access frequencies list (7.6)  
+1. `linked_stack.py` → Stack with singly linked list (7.1.1)  
+2. `linked_queue.py` → Queue with singly linked list (7.1.2)  
+3. `circular_queue.py` → Queue with circularly linked list (7.2.2)  
+4. `doubleLinkNode.py` → Basic doubly linked node (7.3.1)  
+5. `doubly_linked_base.py` → Base class for doubly linked list (7.3.1)  
+6. `linked_deque.py` → Deque with doubly linked list (7.3.2)  
+7. `positional_list.py` → Positional list implementation (7.4.2)  
+8. `insertion_sort_positional.py` → Sort positional list (7.5)  
+9. `insertion_sort_PositionalList.py` → Alternative sort (7.5)  
+10. `favorites_list.py` → Favorites list with counts (7.6.1)  
+11. `favorites_list_mtf.py` → Favorites with move-to-front (7.6.2)  
+12. `favoritesList.py` → Alternative favorites list (7.6)  
+13. `linkedStackQueue.py` → Linked stack/queue example (7.1/7.2)  

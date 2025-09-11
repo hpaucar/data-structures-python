@@ -1,23 +1,4 @@
-# Copyright 2013, Michael H. Goldwasser
-#
-# Developed for use with the book:
-#
-#    Data Structures and Algorithms in Python
-#    Michael T. Goodrich, Roberto Tamassia, and Michael H. Goldwasser
-#    John Wiley & Sons, 2013
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# Description: 
 
 class CreditCard:
   """A consumer credit card."""
@@ -73,14 +54,25 @@ class CreditCard:
     """Process customer payment that reduces balance."""
     self._balance -= amount
 
+
 if __name__ == '__main__':
+
+  obj0 = CreditCard('Jhon Deere', 'BCP', '123456789', 10000)
+
+  print(obj1.get_balance())
+  obj0.charge(3000)
+  print(obj1.get_balance())
+  obj0.make_payment(900)
+  print(obj1.get_balance())
+
+  obj1 = CreditCard('John Bowman', 'California Savings', '5391 0375 9387 5309', 2500);
+  obj2 = CreditCard('John Bowman', 'California Federal', '3485 0399 3395 1954', 3500);
+  obj3 = CreditCard('John Bowman', 'California Finance', '5391 0375 9387 5309', 5000);
+  
   wallet = []
-  wallet.append(CreditCard('John Bowman', 'California Savings',
-                           '5391 0375 9387 5309', 2500) )
-  wallet.append(CreditCard('John Bowman', 'California Federal',
-                           '3485 0399 3395 1954', 3500) )
-  wallet.append(CreditCard('John Bowman', 'California Finance',
-                           '5391 0375 9387 5309', 5000) )
+  wallet.append( obj1)
+  wallet.append( obj2)
+  wallet.append( obj3)
 
   for val in range(1, 17):
     wallet[0].charge(val)

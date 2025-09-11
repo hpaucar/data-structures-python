@@ -1,7 +1,10 @@
-# ch09 Priority Queues
+# Capítulo 9 — Priority Queues
 
-Examples in order of appearance:
-
-1. `priorityQueue.py` → Priority Queue ADT (9.2–9.3)  
-2. `pq_sort.py` → Sorting with PQ (9.4)  
-3. `adaptableHeapPriorityQueue.py` → Adaptable priority queue (9.5.2)  
+1. `priority_queue_base.py` → Base for priority queues (9.2)  
+2. `unsorted_priority_queue.py` → Unsorted list PQ (9.2.2)  
+3. `sorted_priority_queue.py` → Sorted list PQ (9.2.3)  
+4. `heap_priority_queue.py` → Heap-based PQ (9.3.2)  
+5. `pq_sort.py` → Priority queue sort (9.4)  
+6. `adaptable_heap_priority_queue.py` → Adaptable heap PQ (9.5.2)  
+7. `adaptableHeapPriorityQueue.py` → Adaptable heap PQ variant (9.5.2)  
+8. `priorityQueue.py` → Priority queue example (9.1.2)  

@@ -1,13 +1,18 @@
-# ch04 Recursion
+# Capítulo 4 — Recursion
 
-Examples in order of appearance:
-
-1. `factorial.py` → Factorial (4.1.1)  
+1. `factorial.py` → Factorial function (4.1.1)  
 2. `draw_ruler.py` → English ruler (4.1.2)  
-3. `binary_search.py` → Binary search (4.1.3)  
-4. `disk_usage.py` → File system traversal (4.1.4)  
-5. `linear_sum.py` → Linear recursion (4.4.1)  
-6. `binary_sum.py` → Binary recursion (4.4.2)  
-7. `good_fib.py` → Improved Fibonacci (4.4.3)  
-8. `power.py` → Recursive power (4.5)  
-9. `reverse.py` → Sequence reversal  
+3. `ruler.py` → Ruler drawing helper (4.1.2)  
+4. `binary_search.py` → Recursive binary search (4.1.3)  
+5. `binary_search_iterative.py` → Iterative binary search (4.1.3)  
+6. `disk_usage.py` → File system recursion (4.1.4)  
+7. `linear_sum.py` → Linear recursion sum (4.4.1)  
+8. `binary_sum.py` → Binary recursion sum (4.4.2)  
+9. `fibonacci.py` → Recursive Fibonacci (4.4.3)  
+10. `good_fib.py` → Improved Fibonacci (4.4.3)  
+11. `power_slow.py` → Naive exponentiation (4.4.1)  
+12. `power.py` → Divide-and-conquer power (4.4.2)  
+13. `power_fast.py` → Optimized exponentiation (4.4.2)  
+14. `reverse.py` → Recursive reversal (4.4.1)  
+15. `reverse_iterative.py` → Iterative reversal (4.4.1)  
+16. `unique_bad.py` → Poor recursion example (4.3)  

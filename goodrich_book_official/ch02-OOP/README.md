@@ -1,11 +1,15 @@
-# ch02 OOP
+# Capítulo 2 — Object-Oriented Programming
 
-Examples in order of appearance:
-
-1. `hello_world.py` → Introductory example  
+1. `hello_world.py` → Simple class example (2.1)  
 2. `credit_card.py` → CreditCard class (2.3.1)  
-3. `iterator.py` → Iterators (2.3.4)  
-4. `progression.py` → Numeric progressions hierarchy (2.4.2)  
-5. `seq_abc.py` → Abstract Base Classes (2.4.3)  
-6. `r_2.4.py` → Exercise 2.4  
-7. `test.py` → Unit tests  
+3. `predatory_credit_card.py` → Extending CreditCard (2.4.1)  
+4. `vector.py` → Multidimensional vector (2.3.3)  
+5. `progression.py` → Numeric progressions (2.4.2)  
+6. `progressions.py` → Progression hierarchy (2.4.2)  
+7. `range.py` → Custom Range class (2.3.5)  
+8. `sequence_iterator.py` → Iterator class (2.3.4)  
+9. `seq_abc.py` → Abstract base class for sequences (2.4.3)  
+10. `sequence_abc.py` → Sequence ABC variant (2.4.3)  
+11. `iterator.py` → Iterator usage (2.3.4)  
+12. `r_2.4.py` → Exercise example (2.4)  
+13. `test.py` → Testing utilities (2.2.4)  
